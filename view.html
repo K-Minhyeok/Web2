@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+        function delbtn(){
+          event.preventDefault(); 
+          if(confirm("you want delete it?")){
+            alert("Deleted");  
+          }else
+          alert("Canceld");
+        }
+    
+      </script>
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>view</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="my.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <button onclick="location.href='index.html' " >Go to main</button>
+
+      <a class="navbar-brand" href="#">홍길동 학부생</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+
+        <a href="" ></a>
+                
+        <li><a href="edit.html">Edit</a></li>
+        <li><button onclick="delbtn()"  id="btn">Delete</button></li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid_1 bg-1 text-center">
+  <h3 class="margin">NAME</h3>
+  <h3>홍길동</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid_1 bg-2 text-center">
+  <h3 class="margin">Student ID</h3>
+  <p>22000082 </p>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid_1 bg-3 text-center">    
+  <h3 class="margin">AGE / Major / Bank account</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>23</p>
+    </div>
+    <div class="col-sm-4"> 
+        <p>CSEE</p>
+     </div>
+    <div class="col-sm-4"> 
+        <p>81003003170</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="container-fluid_1 bg-4 text-center">
+    <h3 class="margin">Extra info</h3><br>
+    <p>Gender : male</p>
+    <p>Bethel</p>
+    <p>Professor : Lee S.S.</p>
+    <p>blood type : O</p>
+    <p>home town : 경상도</p>
+    <p>Hello I'm studying</p>
+
+
+
+
+</footer>
+
+</body>
+</html>
