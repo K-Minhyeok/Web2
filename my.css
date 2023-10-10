@@ -29,27 +29,22 @@ margin-left: auto;
 
 
 
-body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-  }
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-    background-color: #1abc9c; /* Green */
+    background-color: #1abc9c; 
     color: #ffffff;
   }
   .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
+    background-color: #474e5d; 
     color: #ffffff;
   }
   .bg-3 { 
-    background-color: #ffffff; /* White */
+    background-color: #ffffff; 
     color: #555555;
   }
   .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
+    background-color: #2f2f2f; 
     color: #fff;
   }
   .container-fluid_1 {
@@ -68,3 +63,49 @@ body {
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
+
+  body .container {
+    margin-top: 100px; 
+  }
+
+  .my-3 {
+    margin-bottom: 30px; 
+  }
+
+  #start {
+    margin-top: 60px; 
+}
+  .mileage-form, .sub-info-form {
+    margin-top: 20px; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+}
+
+@media (max-width: 1000px) {
+  #start {
+      margin-top: 300px; 
+  }
+}
+
+@media (min-width: 1000px) {
+  #start {
+      margin-top: 100px; 
+  }
+}
+
+
+@media (max-width: 1000px) {
+  #start_index {
+      margin-top: 300px; 
+  }
+
+ 
+}
+
+@media (min-width: 1000px) {
+  #start_index {
+      margin-top: 100px; 
+  }
+}
